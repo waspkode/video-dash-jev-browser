@@ -1,0 +1,16 @@
+{
+  "name": "codex-dashboard-browser-jev",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Codex-style VideoExpress dashboard with Jev's browser loop; Julia 1 and d1-2B decide locally.",
+  "scripts": {
+    "start": "node app/server.js",
+    "test": "node tests/selfcheck.mjs",
+    "test:jev": "node tests/jev-smoke.mjs",
+    "bench:models": "node tests/model-bench.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.56.0"
+  }
+}
